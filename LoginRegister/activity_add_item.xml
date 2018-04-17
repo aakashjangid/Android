@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="20dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="20dp"
+    tools:context="com.wastedpotential.auctionapp.AddItem"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="← Go Back"
+        android:textSize="15dp"
+        android:layout_marginBottom="85dp"
+        android:gravity="left"
+        android:id="@+id/goBack"
+        android:textColor="#0D47A1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Item for Auction"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:layout_marginBottom="40dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:inputType="text"
+        android:id="@+id/itemName"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Minimum Bid"
+        android:inputType="number"
+        android:id="@+id/minBidBox"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Last Date (dd/mm/yyyy)"
+        android:inputType="text"
+        android:id="@+id/lastDateBox"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Item"
+        android:id="@+id/addItemButton"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>
